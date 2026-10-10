@@ -10,6 +10,13 @@ import HeartHeaderImage from "./assets/Header/heart.svg"
 import CartHeaderImage from "./assets/Header/cart.svg"
 import YandexPage1Section1Image from "./assets/Page1/Section1/yandex.svg"
 import StarPage1Section1Image from "./assets/Page1/Section1/star.svg"
+import VehiclePage1Section2Image from "./assets/Page1/Section2/vehicle.png"
+import BatteryPage1Section2Image from "./assets/Page1/Section2/battery.svg"
+import PowerPage1Section2Image from "./assets/Page1/Section2/power.svg"
+import SpeedPage1Section2Image from "./assets/Page1/Section2/speed.svg"
+import TimePage1Section2Image from "./assets/Page1/Section2/time.svg"
+import CartPage1Section2Image from "./assets/Page1/Section2/cart.svg"
+import HeartPage1Section2Image from "./assets/Page1/Section2/heart.svg"
 
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
@@ -24,4 +31,11 @@ export const Photo = {
     CartHeaderImage,CartHeaderImage,
     YandexPage1Section1Image:YandexPage1Section1Image,
     StarPage1Section1Image:StarPage1Section1Image,
+    VehiclePage1Section2Image:VehiclePage1Section2Image,
+    BatteryPage1Section2Image:BatteryPage1Section2Image,
+    PowerPage1Section2Image:PowerPage1Section2Image,
+    SpeedPage1Section2Image:SpeedPage1Section2Image,
+    TimePage1Section2Image:TimePage1Section2Image,
+    CartPage1Section2Image:CartPage1Section2Image,
+    HeartPage1Section2Image:HeartPage1Section2Image,
 }
