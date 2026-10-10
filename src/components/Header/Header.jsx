@@ -19,7 +19,7 @@ export default function Header(){
                                     <Link to=""><img src={Photo.ViberHeaderImage} alt="" /></Link>
                                     <Link to=""><img src={Photo.WhatsappHeaderImage} alt="" /></Link>                                
                                     <Link to=""><img src={Photo.TelegramHeaderImage} alt="" /></Link>   
-                                </ul>                             
+                                </ul>
                             </div>
                         </div>
                         <div className="header_top_inside_right">
@@ -37,11 +37,13 @@ export default function Header(){
                             <div>
                                 <input type="text" placeholder="Искать самокат KUGO"/>
                                 <button><img src={Photo.SearchHeaderImage} alt="" /></button>
-                            </div>                            
+                            </div>
                         </div>
-                        <Link to="" className="header_nav_right_button"><img src={Photo.BalanceHeaderImage} alt="" /></Link>
-                        <Link to="" className="header_nav_right_button"><img src={Photo.HeartHeaderImage} alt="" /></Link>
-                        <Link to="" className="header_nav_right_button"><img src={Photo.CartHeaderImage} alt="" />Корзина</Link>
+                        <div className="header_nav_inside_right">
+                            <Link to="" className="header_nav_inside_right_button"><img src={Photo.BalanceHeaderImage} alt="" /></Link>
+                            <Link to="" className="header_nav_inside_right_button"><img src={Photo.HeartHeaderImage} alt="" /></Link>
+                            <Link to="" className="header_nav_inside_right_button"><img src={Photo.CartHeaderImage} alt="" />Корзина</Link>
+                        </div>
                     </div>
                 </nav>
                 <div className="header_bot">

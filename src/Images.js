@@ -8,6 +8,8 @@ import TelegramHeaderImage from "./assets/Header/telegram.svg"
 import BalanceHeaderImage from "./assets/Header/balance.svg"
 import HeartHeaderImage from "./assets/Header/heart.svg"
 import CartHeaderImage from "./assets/Header/cart.svg"
+import YandexPage1Section1Image from "./assets/Page1/Section1/yandex.svg"
+import StarPage1Section1Image from "./assets/Page1/Section1/star.svg"
 
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
@@ -20,4 +22,6 @@ export const Photo = {
     BalanceHeaderImage:BalanceHeaderImage,
     HeartHeaderImage:HeartHeaderImage,
     CartHeaderImage,CartHeaderImage,
+    YandexPage1Section1Image:YandexPage1Section1Image,
+    StarPage1Section1Image:StarPage1Section1Image,
 }

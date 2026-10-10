@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.section1{
+    min-height: 583px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 10px;
+    &_top{
+        min-height: 421px;
+        max-width: 1380px;
+        width: 100%;
+        background-image: url(../../../assets/Page1/Section1/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_inside{
+            min-height: 351px;
+            max-width: 1110px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            span{
+                border: 1px solid #FFFFFF;
+                border-radius: 5px;
+                width: 74px;
+                height: 27px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 0.875rem;
+                color: #FFFFFF;
+            }
+            &_title{
+                display: flex;
+                flex-direction: column;
+                max-width: 630px;
+                gap: 16px;
+                h1{
+                    font-size: 2.1875rem;
+                    color: #FFFFFF;
+                }
+                p{
+                    font-size: 1.25rem;
+                    color: #FFFFFF;
+                }
+                a{
+                    width: 177px;
+                    height: 53px;
+                    border-radius: 5px;
+                    background-color: #FFFFFF;
+                    color: #6F73EE;
+                    font-size: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all ease 0.3s;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
+            }
+            &_slider{
+
+            }
+        }
+    }
+    &_bot{
+        display: flex;
+        justify-content: space-between;
+        min-height: 138px;
+        max-width: 1110px;
+        width: 100%;
+        align-items: center;
+        &_text{
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            h2{
+                font-size: 1.625rem;
+                color: #282739;
+            }
+            p{
+                font-size: 1rem;
+                color: #282739;
+            }
+        }
+        &_yandex{
+            max-width: 190px;
+            width: 100%;
+            min-height: 76px;
+            border: 1px solid #EFF0F2;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            gap: 18px;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                p{
+                    font-size: 0.75rem;
+                    color: #5D6C7B;
+                }
+                span{
+                    display: flex;
+                    gap: 3px;
+                    align-items: center;
+                    img{
+                        width: 14px;
+                        height: 14px;
+                    }
+                    font-size: 1.5625rem;
+                    color: #282739;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
