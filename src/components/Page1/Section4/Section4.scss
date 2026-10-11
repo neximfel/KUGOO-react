@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.page1_section4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 421px;
+    margin: 0 auto;
+    &_inside{
+        margin: 0 auto;
+        max-width: 1380px;
+        min-height: 421px;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-image: url(../../../assets/Page1/Section4/background.png);
+        border-radius: 10px;
+        &_label{
+            max-width: 45%;
+            width: 100%;
+            align-items: start;
+            min-height: 287px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            span{
+                width: 86px;
+                height: 27px;
+                border-radius: 5px;
+                background-color: #EE685F;
+                font-size: 0.875rem;
+                color: #FFFFFF;
+                line-height: 1.5;
+                padding: 3px 17px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            h2{
+                font-size: 2.1875rem;
+                color: #FFFFFF;
+                line-height: 1.5;
+                max-width: 450px;
+            }
+            a{
+                padding: 15px 50px;
+                border-radius: 5px;
+                background-color: #FFFFFF;
+                font-size: 1rem;
+                color: #282739;
+                transition: all ease 0.3s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}

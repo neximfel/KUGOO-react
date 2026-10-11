@@ -42,7 +42,6 @@ img{
     display: flex;
     padding-block: 20px;
     justify-content: center;
-    padding-inline: 10px;
     &_inside{
         max-width: 1110px;
         width: 100%;
@@ -216,20 +215,6 @@ img{
                         }
                     }
                 }
-            }
-        }
-        .watch_all{
-            width: 142px;
-            height: 53px;
-            border: 1px solid #6F73EE;
-            color: #6F73EE;
-            font-size: 1rem;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            &:hover{
-                background-color: #ebecff;
             }
         }
     }

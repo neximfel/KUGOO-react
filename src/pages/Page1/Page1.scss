@@ -2,9 +2,27 @@
     display: flex;
     flex-direction: column;
     gap: 100px;
+    padding-inline: 10px;
 }
 .page1_div_container2{
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+
+.watch_all{
+    width: 142px;
+    height: 53px;
+    border: 1px solid #6F73EE;
+    color: #6F73EE;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    &:hover{
+        background-color: #ebecff;
+    }
 }

@@ -20,6 +20,12 @@ import HeartPage1Section2Image from "./assets/Page1/Section2/heart.svg"
 import ArrowPage1Section3Image from "./assets/Page1/Section3/arrow.svg"
 import LeftPage1Section3Background from "./assets/Page1/Section3/left_bg.png"
 import RightPage1Section3Background from "./assets/Page1/Section3/right_bg.png"
+import PfpWomanPage1Section5image from "./assets/Page1/Section5/pfp_woman.png"
+import Page1Section3Background1 from "./assets/Page1/Section5/bg1.png"
+import Page1Section3Background2 from "./assets/Page1/Section5/bg2.png"
+import Page1Section3Background3 from "./assets/Page1/Section5/bg3.png"
+import TrianglePage1Section6Image from "./assets/Page1/Section6/triangle.png"
+import ArrowPage1Section6Image from "./assets/Page1/Section6/arrow.svg"
 
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
@@ -44,4 +50,10 @@ export const Photo = {
     ArrowPage1Section3Image:ArrowPage1Section3Image,
     LeftPage1Section3Background:LeftPage1Section3Background,
     RightPage1Section3Background:RightPage1Section3Background,
+    PfpWomanPage1Section5image:PfpWomanPage1Section5image,
+    Page1Section3Background1:Page1Section3Background1,
+    Page1Section3Background2:Page1Section3Background2,
+    Page1Section3Background3:Page1Section3Background3,
+    TrianglePage1Section6Image:TrianglePage1Section6Image,
+    ArrowPage1Section6Image:ArrowPage1Section6Image,
 }
