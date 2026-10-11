@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.section3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_container{
+        max-width: 1110px;
+        gap: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &_art{
+            max-width: 580px;
+            width: 100%;
+            min-height: 235px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #F4F7FB;
+            &_inside{
+                width: 85%;
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h2{
+                    color: #282739;
+                    font-size: 1.5625rem;
+                    line-height: 1.5;
+                    max-width: 258px;
+                }
+                p{
+                    color: #282739;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    max-width: 258px;
+                }
+                a{
+                    color: #6F73EE;
+                    font-size: 0.875rem;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    display: flex;
+                    &:hover{
+                        gap: 14px;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

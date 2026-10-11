@@ -17,6 +17,9 @@ import SpeedPage1Section2Image from "./assets/Page1/Section2/speed.svg"
 import TimePage1Section2Image from "./assets/Page1/Section2/time.svg"
 import CartPage1Section2Image from "./assets/Page1/Section2/cart.svg"
 import HeartPage1Section2Image from "./assets/Page1/Section2/heart.svg"
+import ArrowPage1Section3Image from "./assets/Page1/Section3/arrow.svg"
+import LeftPage1Section3Background from "./assets/Page1/Section3/left_bg.png"
+import RightPage1Section3Background from "./assets/Page1/Section3/right_bg.png"
 
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
@@ -38,4 +41,7 @@ export const Photo = {
     TimePage1Section2Image:TimePage1Section2Image,
     CartPage1Section2Image:CartPage1Section2Image,
     HeartPage1Section2Image:HeartPage1Section2Image,
+    ArrowPage1Section3Image:ArrowPage1Section3Image,
+    LeftPage1Section3Background:LeftPage1Section3Background,
+    RightPage1Section3Background:RightPage1Section3Background,
 }
