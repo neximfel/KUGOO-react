@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page1_section8{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    &_inside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1380px;
+        min-height: 630px;
+        width: 100%;
+        border-radius: 10px;
+        background-image: url(../../../assets/Page1/Section8/bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        button{
+            border-radius: 100px;
+            width: 136px;
+            height: 136px;
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                transition: all ease 0.3s;
+            }
+            &:hover{
+                transform: scale(0.95);
+                img{
+                    transform: scale(1.35);
+                }
+            }
+        }
+    }
+}

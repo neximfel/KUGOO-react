@@ -12,10 +12,11 @@ export default function Section3(){
 
     return(
         <>
-            <section className="section3">
-                <div className="section3_container">
+            <section className="page1_section3">
+                <div className="page1_section3_container">
                     {article.map((meow, index) => (
-                        <article className="section3_container_art"
+                        <article className="page1_section3_container_art"
+                            key={index}
                             style={{
                                 backgroundImage: `url(${meow.bg})`,
                                 backgroundSize: `contain`,
@@ -23,7 +24,7 @@ export default function Section3(){
                                 backgroundRepeat: `no-repeat`,
                             }}
                         >
-                            <div className="section3_container_art_inside">
+                            <div className="page1_section3_container_art_inside">
                                 <h2>{meow.title}</h2>
                                 <p>{meow.descr}</p>
                                 <Link>Подобрать модель <img src={Photo.ArrowPage1Section3Image} alt="" /></Link>

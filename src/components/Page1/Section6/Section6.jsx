@@ -34,7 +34,7 @@ export default function Section6(){
                             <h5>Специализируемся исключительно на бренде Kugoo, поэтому вы получите:</h5>
                             <div className="page1_section6_inside_right_descr_list">
                                 {list.map((meow, index) => (
-                                    <div className="page1_section6_inside_right_descr_list_punkt">
+                                    <div className="page1_section6_inside_right_descr_list_punkt" key={index}>
                                         <img src={meow.img} alt="" />
                                         <p>{meow.text}</p>
                                     </div>

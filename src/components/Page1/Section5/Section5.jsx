@@ -3,14 +3,14 @@ import { Photo } from "../../../Images.js"
 import { Link } from "react-router-dom"
 
 const cards = [
-    {title: "Робот-пылесос", price: "от 29 900 ₽", img: Photo.Page1Section3Background1},
-    {title: "Электровелосипеды", price: "от 29 900 ₽", img: Photo.Page1Section3Background2},
-    {title: "Весы", price: "от 29 900 ₽", img: Photo.Page1Section3Background3},
-    {title: "Робот-пылесос", price: "от 29 900 ₽", img: Photo.Page1Section3Background1},
-    {title: "Весы", price: "от 29 900 ₽", img: Photo.Page1Section3Background3},
-    {title: "Робот-пылесос", price: "от 29 900 ₽", img: Photo.Page1Section3Background1},
-    {title: "Электровелосипеды", price: "от 29 900 ₽", img: Photo.Page1Section3Background2},
-    {title: "Весы", price: "от 29 900 ₽", img: Photo.Page1Section3Background3},
+    {title: "Робот-пылесос", price: "от 29 900 ₽", img: Photo.Page1Section5Background1},
+    {title: "Электровелосипеды", price: "от 29 900 ₽", img: Photo.Page1Section5Background2},
+    {title: "Весы", price: "от 29 900 ₽", img: Photo.Page1Section5Background3},
+    {title: "Робот-пылесос", price: "от 29 900 ₽", img: Photo.Page1Section5Background1},
+    {title: "Весы", price: "от 29 900 ₽", img: Photo.Page1Section5Background3},
+    {title: "Робот-пылесос", price: "от 29 900 ₽", img: Photo.Page1Section5Background1},
+    {title: "Электровелосипеды", price: "от 29 900 ₽", img: Photo.Page1Section5Background2},
+    {title: "Весы", price: "от 29 900 ₽", img: Photo.Page1Section5Background3},
 ]
 
 export default function Section5(){

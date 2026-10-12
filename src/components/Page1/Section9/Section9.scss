@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page1_section9{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    &_inside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        &_title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 17px;
+            h1{
+                color: #282739;
+                font-size: 2.1875rem;
+                text-align: center;
+            }
+            a{
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                font-size: 0.875rem;
+                color: #6F73EE;
+                line-height: 1.5;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        &_swiper{
+            width: 100%;
+            user-select: none;
+            .swiper-slide{
+                width: max-content;
+            }
+            &_main{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                width: max-content;
+                &_row{
+                    display: flex;
+                    gap: 14px;
+                    width: max-content;
+                    &_art{
+                        position: relative;
+                        flex-shrink: 0;
+                        height: 222px;
+                        border-radius: 10px;
+                        &:has(img:hover) .page1_section9_inside_swiper_main_row_art_rev{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                        .page1_section9_inside_swiper_main_row_art_bg_img{
+                            transition: all ease 0.4s;
+                            height: 100%;
+                            width: auto;
+                            max-width: none;
+                            z-index: 2;    
+                        }
+                        &:hover .page1_section9_inside_swiper_main_row_art_bg_img{
+                            filter: blur(4px);
+                        }
+                        &_rev{
+                            align-self: end;
+                            margin: 22px;
+                            inset: 0;
+                            position: absolute;
+                            z-index: 1;
+                            opacity: 0;
+                            visibility: hidden;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            &:hover{
+                                z-index: 3;
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            &_profile{
+                                display: flex;
+                                gap: 15px;
+                                align-items: center;
+                                div{
+                                    display: flex;
+                                    flex-direction: column;
+                                    h4{
+                                        font-size: 1rem;
+                                        color: #FFFFFF;
+                                        line-height: 1.5;
+                                    }
+                                    p{
+                                        color: #E1E0DF;
+                                        font-size: 0.75rem;
+                                        line-height: 1.5;
+                                    }
+                                }
+                            }
+                            &_rate{
+                                display: flex;
+                                gap: 14px;
+                                p{
+                                    color: #E1E0DF;
+                                    font-size: 0.75rem;
+                                }
+                            }
+                            &_text{
+                                line-height: 1.2;
+                                font-size: 0.75rem;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

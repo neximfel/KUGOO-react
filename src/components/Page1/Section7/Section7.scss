@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.page1_section7{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 751px;
+    &_inside{
+        max-width: 1110px;
+        width: 100%;
+        min-height: 751px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &_title{
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            h1{
+                color: #282739;
+                font-size: 2.1875rem;
+                text-align: center;
+            }
+            p{
+                color: #282739;
+                font-size: 1.25rem;
+                text-align: center;
+            }
+        }
+        &_buttons{
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+            button{
+                padding: 10px 20px;
+                font-size: 1rem;
+                background-color: #F4F7FB;
+                border-radius: 5px;
+                color: #5D6C7B;
+                &.active{
+                    border: 1px solid #6F73EE;
+                    color: #6F73EE;
+                    background: none;
+                }
+            }
+        }
+        &_main{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(225px, auto);
+            grid-gap: 30px;
+            article{
+                border-radius: 10px;
+                max-width: 350px;
+                width: 100%;
+                height: 100%;
+            }
+            &_art{
+                border: 1px solid #EAEBED;
+                padding: 26px 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                gap: 15px;
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    h3{
+                        max-width: 200px;
+                        font-size: 1.125rem;
+                        color: #282739;
+                        line-height: 1.2;
+                    }
+                    span{
+                        p{
+                            color: #282739;
+                            font-size: 0.875rem;
+                            line-height: 1.3;
+                        }
+                        a{
+                            font-size: 0.875rem;
+                            color: #6F73EE;
+                            line-height: 2;
+                            transition: all ease 0.3s;
+                            line-height: 1.3;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            &_dop_art{
+                background-color: #F4F7FB;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &_inside{
+                    width: 85%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    h3{
+                        max-width: 195;
+                        font-size: 1.125rem;
+                        color: #282739;
+                        line-height: 1.5;
+                    }
+                    a{
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        font-size: 0.875rem;
+                        color: #6F73EE;
+                        line-height: 2;
+                        transition: all ease 0.3s;
+                        line-height: 1.5;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

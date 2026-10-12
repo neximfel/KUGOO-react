@@ -37,7 +37,7 @@ img{
 
 
 
-.section2{
+.page1_section2{
     width: 100%;
     display: flex;
     padding-block: 20px;
@@ -81,7 +81,7 @@ img{
             grid-template-columns: repeat(4, 1fr);
             grid-column-gap: 30px;
             grid-row-gap: 30px;
-            .section2_article{
+            .page1_section2_article{
                 max-width: 255px;
                 width: 100%;
                 min-height: 492px;
@@ -108,11 +108,11 @@ img{
                         align-items: start;
                         justify-content: space-between;
                         display: flex;
-                        .section2_article_top_perk_hit{
+                        &_hit{
                             background-color: #EE685F;
                             padding-inline: 9px;
                         }
-                        .section2_article_top_perk_new{
+                        &_new{
                             background-color: #75D14A;
                         }
                         span{
