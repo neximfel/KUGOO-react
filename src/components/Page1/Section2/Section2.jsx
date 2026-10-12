@@ -54,6 +54,16 @@ const all = [hits, cities, adults, kids]
 export default function Section2(){
 
     const [isCurrent, setIsCurrent] = useState(0)
+    const [isPre, setIsPre] = useState([])
+
+    const togglePre = (index) => {
+    setIsPre(prev => {
+        if (prev.includes(index)) {
+            return prev.filter(i => i !== index)
+        } else {
+            return [...prev, index]
+        }
+    })}
 
     return(
         <>
@@ -114,7 +124,12 @@ export default function Section2(){
                                             <button><img src={meow.heart_img} alt="" /></button>
                                         </div>
                                     </div>
-                                    <button className="page1_section2_article_inside_buy_button">Купить в 1 клик</button>
+                                    <button
+                                        onClick={() => togglePre(index)}
+                                        className={`page1_section2_article_inside_buy_button ${isPre.includes(index) ? "preordered" : ""}`}
+                                    >
+                                        {isPre.includes(index) ? "Оформить предзаказ" : "Купить в 1 клик"}
+                                    </button>
                                 </div>
                             </article>
                         ))}

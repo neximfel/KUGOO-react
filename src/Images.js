@@ -64,6 +64,15 @@ import Video1Page1Section10Image from "./assets/Page1/Section10/video1.jpg"
 import Video2Page1Section10Image from "./assets/Page1/Section10/video2.jpg"
 import Video3Page1Section10Image from "./assets/Page1/Section10/video3.jpg"
 
+import Page1Section11Image1 from "./assets/Page1/Section11/image1.png"
+import Page1Section11Image2 from "./assets/Page1/Section11/image2.png"
+import Page1Section11Image3 from "./assets/Page1/Section11/image3.png"
+import Page1Section11Image4 from "./assets/Page1/Section11/image4.png"
+import ViewsPage1Section11Image from "./assets/Page1/Section11/views.svg"
+import DatePage1Section11Image from "./assets/Page1/Section11/date.svg"
+
+import SvgPage1Section12Image from "./assets/Page1/Section12/plus.svg"
+
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
     TriangleHeaderImage:TriangleHeaderImage,
@@ -130,4 +139,13 @@ export const Photo = {
     Video1Page1Section10Image:Video1Page1Section10Image,
     Video2Page1Section10Image:Video2Page1Section10Image,
     Video3Page1Section10Image:Video3Page1Section10Image,
+
+    Page1Section11Image1:Page1Section11Image1,
+    Page1Section11Image2:Page1Section11Image2,
+    Page1Section11Image3:Page1Section11Image3,
+    Page1Section11Image4:Page1Section11Image4,
+    ViewsPage1Section11Image:ViewsPage1Section11Image,
+    DatePage1Section11Image:DatePage1Section11Image,
+
+    SvgPage1Section12Image:SvgPage1Section12Image,
 }

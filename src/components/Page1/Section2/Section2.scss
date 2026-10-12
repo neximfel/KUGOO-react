@@ -210,8 +210,15 @@ img{
                         border-radius: 5px;
                         font-size: 0.75rem;
                         color: #FFFFFF;
+                        &.preordered{
+                            background-color: #F3A712;
+                            &:hover{
+                                background-color: #FAB836;
+                            }
+                        }
                         &:hover{
                             transform: scale(1.05);
+                            background-color: #8185F9;
                         }
                     }
                 }
