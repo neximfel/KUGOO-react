@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page1_section10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .swiper-slide{
+        width: 350px;
+        transition: width 0.1s ease;
+    }
+    .swiper-slide-active{
+        width: 540px;
+    }
+    
+    &_inside{
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        width: 100%;
+        &_top{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            min-width: 0;
+            &_title{
+                margin: 0 auto;
+                max-width: 1110px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h1{
+                        color: #282739;
+                        font-size: 2.1875;
+                    }
+                    a{
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        font-size: 0.875rem;
+                        color: #6F73EE;
+                        line-height: 1.5;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                p{
+                    max-width: 410px;
+                    color: #5D6C7B;
+                    font-size: 0.875rem;
+                    line-height: 1,5;
+                }
+            }
+            .page1_section10_inside_top_swiper .swiper-button-next{
+                position: absolute;
+                top: 100px;
+                right: calc(50% - 400px);
+                width: 68px;
+                height: 68px;
+                border-radius: 100px;
+                background-color: #6F73EE;
+                --swiper-navigation-color: #FFFFFF;
+                svg{
+                    width: 10px;
+                    height: 18px;
+                }
+            }
+            .page1_section10_inside_top_swiper .swiper-button-prev{
+                position: absolute;
+                top: 100px;
+                left: calc(30% - 400px);
+                width: 68px;
+                height: 68px;
+                border-radius: 100px;
+                background-color: #6F73EE;
+                --swiper-navigation-color: #FFFFFF;
+                svg{
+                    width: 10px;
+                    height: 18px;
+                }
+            }
+            &_swiper{
+                padding-left: max(calc((100% - 1110px) / 2));
+                position: relative;
+                width: 100%;
+                min-width: 0;
+                min-height: 350px;
+                
+                .page1_section10_top_art{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    &_video{
+                        user-select: none;
+                        cursor: pointer;
+                        width: 100%;
+                        height: 197px;
+                        background-size: contain;
+                        background-position: start;
+                        background-repeat: no-repeat;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: height 0.1s ease;
+                        border-radius: 10px;
+                        button{
+                            width: 68px;
+                            height: 68px;
+                            border-radius: 100px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background-color: #FFFFFF;
+                            &:hover{
+                                transform: scale(0.95);
+                                img{
+                                    transform: scale(1.35);
+                                }
+                            }
+                            img{
+                                transition: all ease 0.3s;
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+                    h5{
+                        color: #282739;
+                        font-size: 1.125rem;
+                        max-width: 190px;
+                    }
+                }
+                .swiper-slide-active .page1_section10_top_art{
+                    &_video{
+                        height: 304px;
+                        button{
+                            width: 105px;
+                            height: 105px;
+                            img{
+                                width: 28px;
+                                height: 28px;
+                            }
+                        }
+                    }
+                    h5{
+                        max-width: 460px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -59,6 +59,11 @@ import Page1Section9Image12 from "./assets/Page1/Section9/image12.jpg"
 import StarsPage1Section9Image from "./assets/Page1/Section9/stars.svg"
 import PfpPage1Section9Image from "./assets/Page1/Section9/pfp.png"
 
+import ArrowPage1Section10Image from "./assets/Page1/Section10/arrow.svg"
+import Video1Page1Section10Image from "./assets/Page1/Section10/video1.jpg"
+import Video2Page1Section10Image from "./assets/Page1/Section10/video2.jpg"
+import Video3Page1Section10Image from "./assets/Page1/Section10/video3.jpg"
+
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
     TriangleHeaderImage:TriangleHeaderImage,
@@ -120,4 +125,9 @@ export const Photo = {
     Page1Section9Image12:Page1Section9Image12,
     StarsPage1Section9Image:StarsPage1Section9Image,
     PfpPage1Section9Image:PfpPage1Section9Image,
+
+    ArrowPage1Section10Image:ArrowPage1Section10Image,
+    Video1Page1Section10Image:Video1Page1Section10Image,
+    Video2Page1Section10Image:Video2Page1Section10Image,
+    Video3Page1Section10Image:Video3Page1Section10Image,
 }
