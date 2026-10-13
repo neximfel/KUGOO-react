@@ -57,13 +57,11 @@ export default function Section2(){
     const [isPre, setIsPre] = useState([])
 
     const togglePre = (index) => {
-    setIsPre(prev => {
-        if (prev.includes(index)) {
-            return prev.filter(i => i !== index)
-        } else {
-            return [...prev, index]
-        }
-    })}
+        const id = `${isCurrent}-${index}`
+        setIsPre(pre => 
+            pre.includes(id) ? pre.filter(i => i !== id) : [...pre, id]
+        )
+    }
 
     return(
         <>
@@ -126,9 +124,9 @@ export default function Section2(){
                                     </div>
                                     <button
                                         onClick={() => togglePre(index)}
-                                        className={`page1_section2_article_inside_buy_button ${isPre.includes(index) ? "preordered" : ""}`}
+                                        className={`page1_section2_article_inside_buy_button ${isPre.includes(`${isCurrent}-${index}`) ? "preordered" : ""}`}
                                     >
-                                        {isPre.includes(index) ? "Оформить предзаказ" : "Купить в 1 клик"}
+                                        {isPre.includes(`${isCurrent}-${index}`) ? "Оформить предзаказ" : "Купить в 1 клик"}
                                     </button>
                                 </div>
                             </article>
