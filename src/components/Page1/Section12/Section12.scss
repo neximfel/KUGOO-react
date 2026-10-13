@@ -57,25 +57,23 @@ img{
         &_answers{
             display: flex;
             flex-direction: column;
-            gap: 25px;
             &_art{
                 display: flex;
                 flex-direction: column;
-                gap: 24px;
-                padding-bottom: 24px;
                 border-bottom: 1px solid #EAEBED;
                 &_title{
-                    max-height: 48px;
+                    cursor: pointer;
+                    height: 96px;
                     display: flex;
-                    align-items: start;
+                    align-items: center;
                     justify-content: space-between;
+                    user-select: none;
                     h4{
                         max-width: 650px;
                         font-size: 1rem;
                         color: #282739;
                     }
                     img{
-                        cursor: pointer;
                         transition: all ease 0.3s;
                         &.opened{
                             transform: rotate(45deg);
@@ -86,6 +84,7 @@ img{
                     transition: all ease 0.3s;
                     display: none;
                     white-space: pre-line;
+                    padding-bottom: 24px;
                     &.opened{
                         display: flex;
                     }

@@ -27,7 +27,7 @@ const quests = [
 ]
 
 
-export default function Section8(){
+export default function Section12(){
 
     const [isOpen, setIsOpen] = useState(0)
     const toggleQuestion = (que) => {
@@ -43,9 +43,8 @@ export default function Section8(){
                         {quests.map((meow, index) => (
                             <article
                                 className="page1_section12_inside_answers_art"
-                                onClick={() => toggleQuestion(index)}
                             >
-                                <div className="page1_section12_inside_answers_art_title">
+                                <div className="page1_section12_inside_answers_art_title" onClick={() => toggleQuestion(index)}>
                                     <h4>{meow.title}</h4>
                                     <img src={meow.svg} alt="" className={isOpen === index ? "opened" : ""}/>
                                 </div>

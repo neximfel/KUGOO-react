@@ -9,6 +9,23 @@ import BalanceHeaderImage from "./assets/Header/balance.svg"
 import HeartHeaderImage from "./assets/Header/heart.svg"
 import CartHeaderImage from "./assets/Header/cart.svg"
 
+import ApplePayFooterImage from "./assets/Footer/ApplePay.svg"
+import GooglePayFooterImage from "./assets/Footer/GooglePay.svg"
+import MaestroPayFooterImage from "./assets/Footer/MaestroPay.svg"
+import MasterPayFooterImage from "./assets/Footer/MasterPay.svg"
+import WebmoneyPayFooterImage from "./assets/Footer/WebmoneyPay.svg"
+import QiwiPayFooterImage from "./assets/Footer/QiwiPay.svg"
+import VisaPayFooterImage from "./assets/Footer/VisaPay.svg"
+import AppStoreFooterImage from "./assets/Footer/appstore.png"
+import GooglePlayFooterImage from "./assets/Footer/googleplay.png"
+import InstagramLogoFooterImage from "./assets/Footer/instagram_logo.svg"
+import VKLogoFooterImage from "./assets/Footer/vk_logo.svg"
+import TelegramLogoFooterImage from "./assets/Footer/telegram_logo.svg"
+import YouTubeLogoFooterImage from "./assets/Footer/youtube_logo.svg"
+import ViberFooterImage from "./assets/Footer/viber.svg"
+import TelegramFooterImage from "./assets/Footer/telegram.svg"
+import WhatsAppFooterImage from "./assets/Footer/whatsapp.svg"
+
 import YandexPage1Section1Image from "./assets/Page1/Section1/yandex.svg"
 import StarPage1Section1Image from "./assets/Page1/Section1/star.svg"
 
@@ -84,6 +101,23 @@ export const Photo = {
     BalanceHeaderImage:BalanceHeaderImage,
     HeartHeaderImage:HeartHeaderImage,
     CartHeaderImage,CartHeaderImage,
+
+    ApplePayFooterImage:ApplePayFooterImage,
+    GooglePayFooterImage:GooglePayFooterImage,
+    MaestroPayFooterImage:MaestroPayFooterImage,
+    MasterPayFooterImage:MasterPayFooterImage,
+    WebmoneyPayFooterImage:WebmoneyPayFooterImage,
+    QiwiPayFooterImage:QiwiPayFooterImage,
+    VisaPayFooterImage:VisaPayFooterImage,
+    AppStoreFooterImage:AppStoreFooterImage,
+    GooglePlayFooterImage:GooglePlayFooterImage,
+    InstagramLogoFooterImage:InstagramLogoFooterImage,
+    VKLogoFooterImage:VKLogoFooterImage,
+    TelegramLogoFooterImage:TelegramLogoFooterImage,
+    YouTubeLogoFooterImage:YouTubeLogoFooterImage,
+    ViberFooterImage:ViberFooterImage,
+    TelegramFooterImage:TelegramFooterImage,
+    WhatsAppFooterImage:WhatsAppFooterImage,
 
     YandexPage1Section1Image:YandexPage1Section1Image,
     StarPage1Section1Image:StarPage1Section1Image,

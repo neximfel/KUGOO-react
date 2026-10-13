@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.footer{
+    margin-top: 25px;
+    background-color: #F4F7FB;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &_top{
+        padding-inline: 10px;
+        width: 100%;
+        min-height: 97px;
+        background-color: #6F73EE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_inside{
+            display: flex;
+            height: 100%;
+            max-width: 1110px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            h2{
+                max-width: 445px;
+                font-size: 1.125rem;
+                color: #FFFFFF;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                max-width: 570px;
+                width: 100%;
+                min-height: 95px;
+                input{
+                    max-width: 410px;
+                    width: 100%;
+                    padding: 15px 25px;
+                    border-radius: 5px;
+                    color: #FFFFFF;
+                    font-size: 1rem;
+                    background-color: #8C8FF1;
+                    &::placeholder{
+                        color: #FFFFFF;
+                        font-size: 1rem;
+                    }
+                }
+                button{
+                    height: 53px;
+                    max-width: 140px;
+                    width: 100%;
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    font-size: 1rem;
+                    color: #6F73EE;
+                    border: 1px solid #6F73EE;
+                    &:hover{
+                        background-color: #6F73EE;
+                        color: #FFFFFF;
+                        border: 1px solid #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+    &_inside{
+        padding-inline: 10px;
+        max-width: 1110px;
+        width: 100%;
+        min-height: 485px;
+        &_top{
+            padding-block: 45px;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            &_catalog{
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h3{
+                    width: max-content;
+                    font-size: 1.125rem;
+                    color: #282739;
+                    line-height: 1.5;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    a{
+                        padding-block: 3px;
+                        font-size: 0.875rem;
+                        color: #5D6C7B;
+                        line-height: 1.5;
+                        &:hover{
+                            color: #282739;
+                        }
+                    }
+                }
+            }
+            &_for_customers{
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h3{
+                    width: max-content;
+                    font-size: 1.125rem;
+                    color: #282739;
+                    line-height: 1.5;
+                }
+                div{
+                    display: grid;
+                    grid-column-gap: 40px;
+                    grid-row-gap: 10px;
+                    grid-template-columns: repeat(2, 1fr);
+                    a{
+                        padding-block: 3px;
+                        font-size: 0.875rem;
+                        color: #5D6C7B;
+                        line-height: 1.5;
+                        &:hover{
+                            color: #282739;
+                        }
+                    }
+                }
+            }
+            &_contacts{
+                max-width: 490px;
+                width: 100%;
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    h3{
+                        font-size: 1.125rem;
+                        color: #282739;
+                        line-height: 1.5;
+                    }
+                    button{
+                        display: flex;
+                        gap: 8px;
+                        align-items: center;
+                        font-size: 0.875rem;
+                        color: #6F73EE;
+                        line-height: 1.5;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                &_punkts{
+                    height: 100%;
+                    justify-content: space-between;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 28px;
+                    &_container{
+                        display: flex;
+                        gap: 40px;
+                        div{
+                            max-width: 175px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            .footer_punkts_title1{
+                                line-height: 1.5;
+                                font-size: 0.75rem;
+                                color: #282739;
+                            }
+                            .footer_punkts_title2{
+                                line-height: 1.5;
+                                font-size: 0.875rem;
+                                color: #282739;
+                            }
+                            h2{
+                                font-size: 1rem;
+                                color: #282739;
+                            }
+                            .footer_punkts_descr{
+                                line-height: 1.5;
+                                font-size: 0.75rem;
+                                color: #5D6C7B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_mid{
+            min-height: 115px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-block: 1px solid #DEE2E8;
+            &_avaibles{
+                display: flex;
+                gap: 10px;
+            }
+            &_servcies{
+                display: flex;
+                gap: 10px;
+                &_art{
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    width: 123px;
+                    min-height: 40px;
+                    padding: 12px 14px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    transition: all ease 0.3s;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        gap: 10px;
+                        h4{
+                            font-size: 0.875rem;
+                            color: #282739;
+                            line-height: 0.75;
+                        }
+                        p{
+                            font-size: 0.625rem;
+                            color: #5D6C7B;
+                            line-height: 0.75;
+                        }
+                    }
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+        &_bot{
+            display: flex;
+            justify-content: space-between;
+            min-height: 60px;
+            align-items: center;
+            &_left{
+                display: flex;
+                gap: 40px;
+                p{
+                    color: #5D6C7B;
+                    font-size: 0.75rem;
+                }
+            }
+            &_right{
+                display: flex;
+                gap: 35px;
+                &_pays{
+                    display: flex;
+                    gap: 5px;
+                    div{
+                        display: flex;
+                        align-items: center;
+                        padding: 6.5px 5px;
+                        background-color: #FFFFFF;
+                        border-radius: 3px;
+                    }
+                }
+                &_chat{
+                    align-items: center;
+                    display: flex;
+                    gap: 12px;
+                    a{
+                        padding: 3px;
+                        align-items: center;
+                        display: flex;
+                        gap: 8px;
+                        transition: all ease 0.3s;
+                        img{
+                            width: 16px;
+                            height: 16px;
+                            transition: all ease 0.3s;
+                        }
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

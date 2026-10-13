@@ -96,6 +96,8 @@ img{
                     transform: scale(1.015);
                 }
                 &_top{
+                    border-top-right-radius: 8px;
+                    border-top-left-radius: 8px;
                     max-height: 231px;
                     display: flex;
                     flex-direction: column;
