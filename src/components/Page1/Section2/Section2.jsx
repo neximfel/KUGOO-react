@@ -73,7 +73,7 @@ export default function Section2(){
                             {navigation_buttons.map((meow, index) => (
                                 <button
                                     key={index}
-                                    className={isCurrent === index ? "active" : ""}
+                                    className={`nav_section_buttons ${isCurrent === index ? "active" : ""}`}
                                     onClick={() => setIsCurrent(index)}
                                 >{meow.title}</button>
                             ))}

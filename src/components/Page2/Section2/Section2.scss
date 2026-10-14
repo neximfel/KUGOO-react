@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page2_section2{
+    width: 100%;
+    min-height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        min-height: 610px;
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h1{
+            text-align: center;
+            color: #282739;
+            font-size: 2.1875rem;
+            white-space: pre-line;
+        }
+        &_mid{
+            min-height: 440px;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            &_text{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                &.left{
+                    text-align: end;
+                }
+                &.right{
+                    text-align: start;
+                }
+                max-width: 300px;
+                div{
+                    height: 110px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    h3{
+                        font-size: 1.25rem;
+                        color: #282739;
+                    }
+                    p{
+                        font-size: 0.875rem;
+                        white-space: pre-line;
+                        max-width: 300px;
+                        min-height: 101px;
+                        color: #282739;
+                    }
+                }
+            }
+            &_center{
+                align-self: center;
+                border-radius: 50%;
+                max-width: 440px;
+                height: 440px;
+                flex-shrink: 0;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px dashed #EAEBED;
+                &:hover{
+                    cursor: pointer;
+                    .page2_section2_inside_mid_center_a_b_button{
+                        transform: scale(0.85);
+                        img{
+                            transform: scale(1.7);
+                        }
+                    }
+                }
+                &_a{
+                    max-width: 417px;
+                    max-height: 417px;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #F4F7FB;
+                    &_b{
+                        max-width: 394px;
+                        max-height: 394px;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-image: url(../../../assets/Page2/Section2/samokat.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                        button{
+                            border-radius: 50%;
+                            width: 96px;
+                            height: 96px;
+                            background-color: #FFFFFF;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+                                width: 25px;
+                                height: 25px;
+                                transition: all ease 0.3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

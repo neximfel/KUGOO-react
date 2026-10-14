@@ -90,6 +90,11 @@ import DatePage1Section11Image from "./assets/Page1/Section11/date.svg"
 
 import SvgPage1Section12Image from "./assets/Page1/Section12/plus.svg"
 
+
+import LocatePage2Section1Image from "./assets/Page2/Section1/locate.svg"
+import GuardPage2Section1Image from "./assets/Page2/Section1/guard.svg"
+import GearPage2Section1Image from "./assets/Page2/Section1/gear.svg"
+
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
     TriangleHeaderImage:TriangleHeaderImage,
@@ -182,4 +187,9 @@ export const Photo = {
     DatePage1Section11Image:DatePage1Section11Image,
 
     SvgPage1Section12Image:SvgPage1Section12Image,
+
+
+    LocatePage2Section1Image:LocatePage2Section1Image,
+    GuardPage2Section1Image:GuardPage2Section1Image,
+    GearPage2Section1Image:GearPage2Section1Image,
 }

@@ -10,7 +10,7 @@ export default function Header(){
                     <div className="header_top_inside">
                         <div className="header_top_inside_left">
                             <ul>
-                                <Link to="">Сервис</Link>
+                                <Link to="/page2">Сервис</Link>
                                 <Link to="">Сотрудничество</Link>
                                 <Link to="">Заказать звонок</Link>
                             </ul>
