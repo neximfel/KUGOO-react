@@ -81,10 +81,10 @@ const all = [product1, product2, product3, product4]
 
 export default function Section3(){
 
-const navButtonSwitch = (index) => {
-    setIsCurrent(index)
-    setIsProduct(0)
-}
+    const navButtonSwitch = (index) => {
+        setIsCurrent(index)
+        setIsProduct(0)
+    }
 
     const [isCurrent, setIsCurrent] = useState(0)
     const [isProduct, setIsProduct] = useState(0)

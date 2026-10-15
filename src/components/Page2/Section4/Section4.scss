@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.page2_section4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 421px;
+    &_inside{
+        min-height: 421px;
+        max-width: 1380px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        background-image: url(../../../assets/Page2/Section4/bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &_field{
+            max-width: 650px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+            gap: 25px;
+            span{
+                padding: 3px 12px;
+                border-radius: 5px;
+                background-color: #75D14A;
+                color: #FFFFFF;
+                font-size: 0.875rem;
+            }
+            h1{
+                max-width: 550px;
+                font-size: 2.1875rem;
+                color: #FFFFFF;
+            }
+            button{
+                width: 240px;
+                height: 53px;
+                border-radius: 5px;
+                background-color: #FFFFFF;
+                color: #3C89FD;
+                border: 1px solid #FFFFFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover{
+                    color: #3C89FD;
+                    border: 1px solid #3C89FD;
+                }
+            }
+        }
+    }
+}
