@@ -148,7 +148,7 @@ export default function Section6(){
                         <h1>СТОИМОСТЬ ГИДРОИЗОЛЯЦИИ И НАСТРОЙКИ</h1>
                         <p>Для версии MAX и VIP гидроизоляция и настройка — бесплатно</p>
                     </div>
-                    <div className="page2_section5_inside_buttons">
+                    <div className="page2_section6_inside_buttons">
                         {buttons_nav.map((meow, index) => (
                             <button
                                 key={index}
