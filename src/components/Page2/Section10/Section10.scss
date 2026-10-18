@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page2_section10{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        gap: 60px;
+        max-width: 735px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h1{
+            text-align: center;
+            color: #282739;
+            font-size: 2.1875rem;
+        }
+        &_answers{
+            display: flex;
+            flex-direction: column;
+            &_art{
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid #EAEBED;
+                &_title{
+                    gap: 10px;
+                    cursor: pointer;
+                    padding-block: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    user-select: none;
+                    h4{
+                        max-width: 650px;
+                        font-size: 1rem;
+                        color: #282739;
+                        line-height: 1.5s;
+                    }
+                    img{
+                        transition: all ease 0.3s;
+                        &.opened{
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+                p{
+                    transition: all ease 0.3s;
+                    display: none;
+                    white-space: pre-line;
+                    padding-bottom: 20px;
+                    &.opened{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page2_section11{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    &_inside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 300px;
+        gap: 50px;
+        &_container{
+            min-height: 300px;
+            border-radius: 10px;
+            background-color: #F4F7FB;
+            max-width: 1380px;
+            width: 100%;
+            padding-inline: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &_main{
+                max-width: 1110px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                justify-content: start;
+                &_columns{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    &_column{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 18px;
+                        h2{
+                            color: #282739;
+                            font-size: 1.25rem;
+                        }
+                        &_stat{
+                            display: flex;
+                            gap: 15px;
+                            align-items: start;
+                            &_text{
+                                gap: 2px;
+                                h4{
+                                    color: #282739;
+                                    font-size: 0.875rem;
+                                }
+                                p{
+                                    font-size: 0.875rem;
+                                    color: #5D6C7B;
+                                }
+                            }
+                        }
+                        &_number{
+                            display: flex;
+                            gap: 15px;
+                            h3{
+                                font-size: 1rem;
+                                color: #282739;
+                            }
+                        }
+                    }
+                }
+                &_warn{
+                    display: flex;
+                    gap: 15px;
+                    p{
+                        color: #282739;
+                        font-size: 0.875rem;
+                        max-width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}

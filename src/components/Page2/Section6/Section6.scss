@@ -49,6 +49,7 @@ img{
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 50px;
         &_title{
             display: flex;
             flex-direction: column;
@@ -69,12 +70,27 @@ img{
             align-items: center;
         }
         &_main{
-            &_column{
-                h1{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+            column-gap: 40px;
+            &_cell{
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                max-width: 475px;
+                width: 100%;
+                height: 60px;
+                border-bottom: 1px solid #EAEBED;
 
+                h1{
+                    color: #282739;
+                    font-size: 1rem;
                 }
                 p{
-
+                    color: #282739;
+                    font-size: 1rem;
                 }
             }
         }

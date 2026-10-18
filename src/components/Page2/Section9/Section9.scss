@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.page2_section9{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_inside{
+        max-width: 1380px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        &_title{
+            max-width: 1110px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            h1{
+                color: #282739;
+                font-size: 2.1875rem;
+            }
+            &_right{
+                background-color: #6F73EE;
+                border-radius: 5px;
+                padding: 15px 20px;
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                img{
+                    width: 46px;
+                    height: 46px;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h3{
+                        color: #FFFFFF;
+                        font-size: 1.25rem;
+                    }
+                    p{
+                        font-size: 0.75rem;
+                        color: #FFFFFF;
+                    }
+                    .page2_section9_gray{
+                        color: #B7B9F6;
+                    }
+                    .page2_section9_white{
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        &_main{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+            img{
+                max-width: 485px;
+            }
+            img:nth-child(-n+3){
+                max-height: 485px;
+            }
+            img:nth-child(n+4){
+                max-height: 350px;
+            }
+        }
+    }
+}

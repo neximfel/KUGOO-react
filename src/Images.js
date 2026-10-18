@@ -91,11 +91,32 @@ import DatePage1Section11Image from "./assets/Page1/Section11/date.svg"
 import SvgPage1Section12Image from "./assets/Page1/Section12/plus.svg"
 
 
+
 import LocatePage2Section1Image from "./assets/Page2/Section1/locate.svg"
 import GuardPage2Section1Image from "./assets/Page2/Section1/guard.svg"
 import GearPage2Section1Image from "./assets/Page2/Section1/gear.svg"
 
 import CheckCirclePage2Section5Image from "./assets/Page2/Section5/check_circle.svg"
+
+import Page2Section8Image1 from "./assets/Page2/Section8/image1.png"
+import Page2Section8Image2 from "./assets/Page2/Section8/image2.png"
+import Pfp1Page2Section8Image from "./assets/Page2/Section8/pfp1.png"
+import Pfp2Page2Section8Image from "./assets/Page2/Section8/pfp2.png"
+import Pfp3Page2Section8Image from "./assets/Page2/Section8/pfp3.png"
+import Pfp4Page2Section8Image from "./assets/Page2/Section8/pfp4.png"
+import Pfp5Page2Section8Image from "./assets/Page2/Section8/pfp5.png"
+
+import ItemsPage2Section9Image from "./assets/Page2/Section9/image.png"
+import Work1Page2Section9Image from "./assets/Page2/Section9/work1.png"
+import Work2Page2Section9Image from "./assets/Page2/Section9/work2.png"
+import Work3Page2Section9Image from "./assets/Page2/Section9/work3.png"
+import Work4Page2Section9Image from "./assets/Page2/Section9/work4.png"
+import Work5Page2Section9Image from "./assets/Page2/Section9/work5.png"
+import Work6Page2Section9Image from "./assets/Page2/Section9/work6.png"
+
+import GeoPage2Section11Image from "./assets/Page2/Section11/geo.svg"
+import PhonePage2Section11Image from "./assets/Page2/Section11/phone.svg"
+import WarnPage2Section11Image from "./assets/Page2/Section11/warn.svg"
 
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
@@ -191,9 +212,29 @@ export const Photo = {
     SvgPage1Section12Image:SvgPage1Section12Image,
 
 
+
     LocatePage2Section1Image:LocatePage2Section1Image,
     GuardPage2Section1Image:GuardPage2Section1Image,
     GearPage2Section1Image:GearPage2Section1Image,
 
     CheckCirclePage2Section5Image:CheckCirclePage2Section5Image,
+    
+    Page2Section8Image1:Page2Section8Image1,
+    Page2Section8Image2:Page2Section8Image2,
+    Pfp1Page2Section8Image:Pfp1Page2Section8Image,
+    Pfp2Page2Section8Image:Pfp2Page2Section8Image,
+    Pfp3Page2Section8Image:Pfp3Page2Section8Image,
+    Pfp4Page2Section8Image:Pfp4Page2Section8Image,
+    Pfp5Page2Section8Image:Pfp5Page2Section8Image,
+
+    ItemsPage2Section9Image:ItemsPage2Section9Image,
+    Work1Page2Section9Image:Work1Page2Section9Image,
+    Work2Page2Section9Image:Work2Page2Section9Image,
+    Work3Page2Section9Image:Work3Page2Section9Image,
+    Work4Page2Section9Image:Work4Page2Section9Image,
+    Work5Page2Section9Image:Work5Page2Section9Image,
+    Work6Page2Section9Image:Work6Page2Section9Image,
+    GeoPage2Section11Image:GeoPage2Section11Image,
+    PhonePage2Section11Image:PhonePage2Section11Image,
+    WarnPage2Section11Image:WarnPage2Section11Image,
 }

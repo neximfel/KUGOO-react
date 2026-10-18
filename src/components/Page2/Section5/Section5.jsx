@@ -52,10 +52,10 @@ export default function Section5(){
                                 <p>{meow.descr}</p>
                                 <h3>{meow.sub}</h3>
                                 <div className="page2_section5_inside_block_text_pluses">
-                                    {cont1[0].pluses.map((meow, index) => (
+                                    {meow.pluses.map((larp, index) => (
                                         <div key={index}>
                                             <img src={Photo.CheckCirclePage2Section5Image} alt="" />
-                                            <p>{meow.plus}</p>
+                                            <p>{larp.plus}</p>
                                         </div>
                                     ))}
                                 </div>
@@ -73,10 +73,10 @@ export default function Section5(){
                                 <p>{meow.descr}</p>
                                 <h4>{meow.sub}</h4>
                                 <div className="page2_section5_inside_block_text_pluses">
-                                    {cont2[0].pluses.map((meow, index) => (
+                                    {meow.pluses.map((larp, index) => (
                                         <div key={index}>
                                             <img src={Photo.CheckCirclePage2Section5Image} alt="" />
-                                            <p>{meow.plus}</p>
+                                            <p>{larp.plus}</p>
                                         </div>
                                     ))}
                                 </div>
