@@ -118,6 +118,15 @@ import GeoPage2Section11Image from "./assets/Page2/Section11/geo.svg"
 import PhonePage2Section11Image from "./assets/Page2/Section11/phone.svg"
 import WarnPage2Section11Image from "./assets/Page2/Section11/warn.svg"
 
+
+
+import WalletPage3Section1Image from "./assets/Page3/Section1/wallet.svg"
+import BoxPage3Section1Image from "./assets/Page3/Section1/box.svg"
+import UpdatePage3Section1Image from "./assets/Page3/Section1/update.svg"
+import PicturePage3Section1Image from "./assets/Page3/Section1/picture.svg"
+
+import CertificatePage3Section3Image from "./assets/Page3/Section3/certif.png"
+
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
     TriangleHeaderImage:TriangleHeaderImage,
@@ -237,4 +246,13 @@ export const Photo = {
     GeoPage2Section11Image:GeoPage2Section11Image,
     PhonePage2Section11Image:PhonePage2Section11Image,
     WarnPage2Section11Image:WarnPage2Section11Image,
+
+
+
+    WalletPage3Section1Image:WalletPage3Section1Image,
+    BoxPage3Section1Image:BoxPage3Section1Image,
+    UpdatePage3Section1Image:UpdatePage3Section1Image,
+    PicturePage3Section1Image:PicturePage3Section1Image,
+
+    CertificatePage3Section3Image:CertificatePage3Section3Image,
 }
