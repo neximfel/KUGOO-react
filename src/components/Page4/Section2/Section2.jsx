@@ -25,9 +25,11 @@ export default function Section2(){
                     <div className="page4_section2_inside_field">
                         <div className="page4_section2_inside_field_top">
                             <div className="page4_section2_inside_field_top_text">
-                                <h1>ОПРЕДЕЛИТЕ МАКСИМАЛЬНО ПОДХОДЯЩУЮ ВАМ МОДЕЛЬ НЕ ТЕОРЕТИЧЕСКИ, А НА ПРАКТИКЕ</h1>
+                                <h1 className="title_h1">ОПРЕДЕЛИТЕ МАКСИМАЛЬНО ПОДХОДЯЩУЮ ВАМ 
+                                    МОДЕЛЬ НЕ ТЕОРЕТИЧЕСКИ, А НА ПРАКТИКЕ</h1>
                                 <div className="page4_section2_inside_field_top_text_punkts">
-                                    <p className="page4_section2_inside_field_top_text_punkts_subtitle">Тест-драйв поможет:</p>
+                                    <p className="page4_section2_inside_field_top_text_punkts_subtitle">
+                                        Тест-драйв поможет:</p>
                                     <div className="page4_section2_inside_field_top_text_punkts_boxes">
                                         {punkts1.map((meow, index) => (
                                             <div key={index}>
@@ -41,9 +43,11 @@ export default function Section2(){
                         </div>
                         <div className="page4_section2_inside_field_bot">
                             <div className="page4_section2_inside_field_bot_text">
-                                <h1>НАУЧИМ ПРАВИЛЬНОЙ И БЕЗОПАСНОЙ ЕЗДЕ В ГОРОДЕ ВАС ИЛИ ВАШЕГО РЕБЕНКА</h1>
+                                <h1 className="title_h1">НАУЧИМ ПРАВИЛЬНОЙ И БЕЗОПАСНОЙ ЕЗДЕ 
+                                    В ГОРОДЕ ВАС ИЛИ ВАШЕГО РЕБЕНКА</h1>
                                 <div className="page4_section2_inside_field_bot_text_punkts">
-                                    <p className="page4_section2_inside_field_bot_text_punkts_subtitle">На обучении специалист расскажет:</p>
+                                    <p className="page4_section2_inside_field_bot_text_punkts_subtitle">
+                                        На обучении специалист расскажет:</p>
                                     <div className="page4_section2_inside_field_bot_text_punkts_boxes">
                                         {punkts2.map((meow, index) => (
                                             <div key={index}>
