@@ -15,11 +15,11 @@ const punkts = [
 ]
 const boxes = [
     {
-        title: <><h3>До <span>25%</span></h3></>,
+        title: <>До <span>25%</span></>,
         text: `ваша прибыль с продажи \n единицы товара Kugoo`
     },
     {
-        title: <><h3>от <span>3 ШТ.</span></h3></>,
+        title: <>от <span>3 ШТ.</span></>,
         text: `минимальная \n оптовая партия`
     },
 ]
@@ -57,7 +57,7 @@ export default function Section3(){
                         </div>
                         <div className="page3_section3_inside_left_boxes">
                             {boxes.map((meow, index) => (
-                                <div>
+                                <div key={index}>
                                     <h3>{meow.title}</h3>
                                     <p>{meow.text}</p>
                                 </div>
@@ -74,12 +74,14 @@ export default function Section3(){
                             navigation={true}
                             speed={800}
                             slidesPerView="1"
-                            spaceBetween={30}
+                            spaceBetween={0}
                             className="page3_section3_inside_right_swiper"
                         >
                             {certifs.map((meow, index) => (
                                 <SwiperSlide key={index}>
-                                    <img src={meow.img} alt="" />
+                                    <div>
+                                        <img src={meow.img} alt="" />
+                                    </div>
                                 </SwiperSlide>
                             ))}
                         </Swiper>

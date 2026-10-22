@@ -127,6 +127,23 @@ import PicturePage3Section1Image from "./assets/Page3/Section1/picture.svg"
 
 import CertificatePage3Section3Image from "./assets/Page3/Section3/certif.png"
 
+import MapPage3Section5Image from "./assets/Page3/Section5/map.png"
+
+import Page3Section6Image1 from "./assets/Page3/Section6/image1.png"
+import Page3Section6Image2 from "./assets/Page3/Section6/image2.png"
+import Page3Section6Image3 from "./assets/Page3/Section6/image3.png"
+import Page3Section6Image4 from "./assets/Page3/Section6/image4.png"
+import Page3Section6Image5 from "./assets/Page3/Section6/image5.png"
+import Page3Section6Image6 from "./assets/Page3/Section6/image6.png"
+import Page3Section6Image7 from "./assets/Page3/Section6/image7.png"
+import Page3Section6Image8 from "./assets/Page3/Section6/image8.png"
+import ArrowRightPage3Section6Image from "./assets/Page3/Section6/arrow_right.svg"
+import ArrowLeftPage3Section6Image from "./assets/Page3/Section6/arrow_left.svg"
+import ArrowBotPage3Section6Image from "./assets/Page3/Section6/arrow_bot.svg"
+import ArrowTopPage3Section6Image from "./assets/Page3/Section6/arrow_top.svg"
+
+import CheckTopPage3Section7Image from "./assets/Page3/Section7/check.svg"
+
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
     TriangleHeaderImage:TriangleHeaderImage,
@@ -255,4 +272,20 @@ export const Photo = {
     PicturePage3Section1Image:PicturePage3Section1Image,
 
     CertificatePage3Section3Image:CertificatePage3Section3Image,
+
+    MapPage3Section5Image:MapPage3Section5Image,
+    
+    Page3Section6Image1:Page3Section6Image1,
+    Page3Section6Image2:Page3Section6Image2,
+    Page3Section6Image3:Page3Section6Image3,
+    Page3Section6Image4:Page3Section6Image4,
+    Page3Section6Image5:Page3Section6Image5,
+    Page3Section6Image6:Page3Section6Image6,
+    Page3Section6Image7:Page3Section6Image7,
+    Page3Section6Image8:Page3Section6Image8,
+    ArrowRightPage3Section6Image:ArrowRightPage3Section6Image,
+    ArrowLeftPage3Section6Image:ArrowLeftPage3Section6Image,
+    ArrowBotPage3Section6Image:ArrowBotPage3Section6Image,
+    ArrowTopPage3Section6Image:ArrowTopPage3Section6Image,
+    CheckTopPage3Section7Image:CheckTopPage3Section7Image,
 }

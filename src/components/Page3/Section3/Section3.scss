@@ -39,7 +39,153 @@ img{
 
 
 .page3_section3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 475px;
+    
+    .page3_section3_inside_right_swiper .swiper-button-prev, .swiper-button-next{
+        position: absolute;
+        width: 42px;
+        height: 42x;
+        border-radius: 50%;
+        background-color: #6F73EE;
+        --swiper-navigation-color: #FFFFFF;
+        svg{
+            width: 8px;
+            height: 15px;
+        }
+        &.swiper-button-disabled{
+            opacity: 1;
+            background-color: #FFFFFF;
+            --swiper-navigation-color: #6F73EE;
+            cursor: not-allowed;
+            pointer-events: auto !important;
+        }
+    } 
+    .swiper-button-prev{
+        left: 20px;
+    }
+    .swiper-button-next{
+        right: 20px;
+    }
     &_inside{
-        
+        min-height: 475px;
+        max-width: 1110px;
+        width: 100%;
+        padding-inline: 10px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_left{
+            max-width: 650px;
+            width: 100%;
+            min-height: 475px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: space-between;
+            &_title{
+                h1{
+                }
+                p{
+                    font-size: 1.125rem;
+                    color: #282739;
+                }
+            }
+            &_punkts{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h4{
+                    color: #282739;
+                    font-size: 1.125rem;
+                }
+                &_cats{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    div{
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+                        p{
+                            font-size: 0.875rem;
+                            color: #282739;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+            &_boxes{
+                display: flex;
+                gap: 20px;
+                div{
+                    align-items: center;
+                    justify-content: space-between;
+                    display: flex;
+                    width: 188px;
+                    height: 108px;
+                    padding: 15px;
+                    border-radius: 10px;
+                    background-color: #F4F7FB;
+                    flex-direction: column;
+                    gap: 7px;
+                    h3{
+                        color: #6F73EE;
+                        font-size: 0.875rem;
+                        font-weight: normal;
+                        span{
+                            font-size: 1.5625rem;
+                            font-weight: bold;
+                        }
+                    }
+                    p{
+                        text-align: center;
+                        white-space: pre-line;
+                        font-size: 0.75rem;
+                        color: #282739;
+                    }
+                }
+            }
+        }
+        &_right{
+            width: 100%;
+            min-height: 453px;
+            max-width: 430px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: space-between;
+            &_percent{
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                max-width: 293px;
+                min-height: 82px;
+                width: 100%;
+                border: 1px solid #EAEBED;
+                border-radius: 10px;
+                h2{
+                    color: #6F73EE;
+                    font-size: 3.125rem;
+                }
+                p{
+                    max-width: 140px;
+                    color: #282739;
+                    font-size: 0.75rem;
+                }
+            }
+            &_swiper{
+                position: relative;
+                width: 100%;
+                max-height: 322px;
+                border: 10px solid #5D6C7B;
+                border-radius: 10px;
+            }
+        }
     }
 }

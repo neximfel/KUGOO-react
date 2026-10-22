@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+.page3_section6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &_inside{
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+        &_title{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            h1{
+                max-width: 880px;
+            }
+            p{
+                color: #282739;
+                font-size: 1.125rem;
+            }
+        }
+        &_main{
+            max-width: 1000px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            &_mid{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                &_arrow{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-width: 120px;
+                    width: 100%;
+                }
+            }
+            &_line{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1000px;
+                &_container{
+                    display: block;
+                    justify-content: space-between;
+                    &_box{
+                        max-width: 180px;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 15px;
+                        div{
+                            width: 110px;
+                            height: 110px;
+                            background-color: #F4F7FB;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        h4{
+                            color: #282739;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
