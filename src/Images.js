@@ -127,6 +127,15 @@ import PicturePage3Section1Image from "./assets/Page3/Section1/picture.svg"
 
 import CertificatePage3Section3Image from "./assets/Page3/Section3/certif.png"
 
+import BackgroundPage3section8Image from "./assets/Page3/Section8/bg.png"
+
+import ArrowPage3Section10Image from "./assets/page3/Section10/Arrow.svg"
+
+import VKPage3Section10Image from "./assets/page3/Section10/vk.svg"
+import YouTubePage3Section10Image from "./assets/page3/Section10/youtube.svg"
+import TelegramPage3Section10Image from "./assets/page3/Section10/telegram.svg"
+import InstagramPage3Section10Image from "./assets/page3/Section10/instagram.svg"
+
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
     TriangleHeaderImage:TriangleHeaderImage,
@@ -255,4 +264,12 @@ export const Photo = {
     PicturePage3Section1Image:PicturePage3Section1Image,
 
     CertificatePage3Section3Image:CertificatePage3Section3Image,
+
+    BackgroundPage3section8Image:BackgroundPage3section8Image,
+
+    ArrowPage3Section10Image:ArrowPage3Section10Image,
+    VKPage3Section10Image:VKPage3Section10Image,
+    YouTubePage3Section10Image:YouTubePage3Section10Image,
+    TelegramPage3Section10Image:TelegramPage3Section10Image,
+    InstagramPage3Section10Image:InstagramPage3Section10Image,
 }
