@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+.page3_section10{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        &_text{
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            p{
+                font-size: 1.125rem;
+                color: #282739;
+            }
+        }
+        &_socials{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            background-color: #F4F7FB;
+            border-radius: 10px;
+            max-width: 320px;
+            width: 100%;
+            min-height: 270px;
+            &_container{
+                max-width: 255px;
+                width: 100%;
+                height: 45px;
+                border-radius: 5px;
+                padding: 12px 15px;
+                display: flex;
+                justify-content: space-between;
+                &_title{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    h5{
+                        color: #FFFFFF;
+                        font-size: 0.875rem;
+                    }
+                }
+                p{
+                    font-size: 0.875rem;
+                    color: rgba($color: #FFFFFF, $alpha: 0.7);
+                }
+                &.vk{
+                    background-color: #4B729F;
+                }
+                &.instagram{
+                    background-image: linear-gradient(10deg, #FFC107, #F44336, #9C27B0);
+                }
+                &.youtube{
+                    background-color: #E53935;
+                }
+                &.telegram{
+                    background-color: #039BE5;
+                }
+            }
+        }
+    }
+}

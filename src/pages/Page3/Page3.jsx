@@ -7,6 +7,11 @@ import Section4 from "../../components/Page3/Section4/Section4.jsx"
 import Section5 from "../../components/Page3/Section5/Section5.jsx"
 import Section6 from "../../components/Page3/Section6/Section6.jsx"
 import Section7 from "../../components/Page3/Section7/Section7.jsx"
+import Section8 from "../../components/Page3/Section8/Section8.jsx"
+import Section9 from "../../components/Page3/Section9/Section9.jsx"
+import Section10 from "../../components/Page3/Section10/Section10.jsx"
+import Section11 from "../../components/Page3/Section11/Section11.jsx"
+import Section12 from "../../components/Page3/Section12/Section12.jsx"
 
 export default function Page3(){
     return(
@@ -19,6 +24,11 @@ export default function Page3(){
                                 <Section5/>
                                     <Section6/>
                                         <Section7/>
+                                            <Section8/>
+                                                <Section9/>
+                                                    <Section10/>
+                                                        <Section11/>
+                                                            <Section12/>
             </div>
         </>
     )

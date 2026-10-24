@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+.page4_navigation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        padding-inline: 10px;
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 5px;
+        a, p{
+            color: #5D6C7B;
+            font-size: 0.75rem;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}

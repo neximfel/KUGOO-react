@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+button{
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: transparent;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.25s ease;
+}
+input{
+    outline: none;
+    border-style: none;
+    background-color: transparent;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+
+.page4_section2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        max-width: 1380px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        &_top{
+            width: 100%;
+            // background-image: url(../../../assets/Page4/Section2/bg1.png);
+            // background-position: right;
+            // background-repeat: no-repeat;
+            // background-size: contain;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &_text{
+                max-width: 1110px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h1{
+                    max-width: 650px;
+                }
+                &_punkts{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    &_subtitle{
+                        font-weight: bold;
+                        color: #282739;
+                        font-size: 1.25rem;
+                    }
+                    &_boxes{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 7px;
+                        div{
+                            align-items: center;
+                            display: flex;
+                            gap: 10px;
+                            p{
+                                color: #282739;
+                                font-size: 1.125rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_bot{
+            gap: 50px;
+            width: 100%;
+            // background-image: url(../../../assets/Page4/Section2/bg2.png);
+            // background-position: left;
+            // background-repeat: no-repeat;
+            // background-size: contain;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &_text{
+                max-width: 750px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h1{
+                    max-width: 620px;
+                }
+                &_punkts{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    &_subtitle{
+                        font-weight: bold;
+                        color: #282739;
+                        font-size: 1.25rem;
+                    }
+                    &_boxes{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 7px;
+                        div{
+                            align-items: center;
+                            display: flex;
+                            gap: 10px;
+                            p{
+                                color: #282739;
+                                font-size: 1.125rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

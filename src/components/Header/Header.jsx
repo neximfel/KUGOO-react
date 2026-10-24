@@ -53,7 +53,7 @@ export default function Header(){
                             Доставка и оплата
                             <span>Доступная рассрочка</span>
                         </Link>
-                        <Link to="">Тест-драйв</Link>
+                        <Link to="/page4">Тест-драйв</Link>
                         <Link to="">Блог</Link>
                         <Link to="">Контакты</Link>
                         <Link to="">

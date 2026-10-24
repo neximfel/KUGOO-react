@@ -143,6 +143,25 @@ import ArrowBotPage3Section6Image from "./assets/Page3/Section6/arrow_bot.svg"
 import ArrowTopPage3Section6Image from "./assets/Page3/Section6/arrow_top.svg"
 
 import CheckTopPage3Section7Image from "./assets/Page3/Section7/check.svg"
+import BackgroundPage3section8Image from "./assets/Page3/Section8/bg.png"
+
+import ArrowPage3Section10Image from "./assets/Page3/Section10/Arrow.svg"
+
+import VKPage3Section10Image from "./assets/Page3/Section10/vk.svg"
+import YouTubePage3Section10Image from "./assets/Page3/Section10/youtube.svg"
+import TelegramPage3Section10Image from "./assets/Page3/Section10/telegram.svg"
+import InstagramPage3Section10Image from "./assets/Page3/Section10/instagram.svg"
+
+
+
+import HomePage4NavigationImage from "./assets/Page4/Navigation/Home.svg"
+
+import ScooterPage4Section1Image from "./assets/Page4/Section1/scooter.svg"
+import EnergyPage4Section1Image from "./assets/Page4/Section1/energy.svg"
+import GeoPage4Section1Image from "./assets/Page4/Section1/geo.svg"
+
+import Background1Page4Section2Image from "./assets/Page4/Section2/bg1.png"
+import Background2Page4Section2Image from "./assets/Page4/Section2/bg2.png"
 
 export const Photo = {
     ListHeaderImage:ListHeaderImage,
@@ -288,4 +307,22 @@ export const Photo = {
     ArrowBotPage3Section6Image:ArrowBotPage3Section6Image,
     ArrowTopPage3Section6Image:ArrowTopPage3Section6Image,
     CheckTopPage3Section7Image:CheckTopPage3Section7Image,
+    BackgroundPage3section8Image:BackgroundPage3section8Image,
+
+    ArrowPage3Section10Image:ArrowPage3Section10Image,
+    VKPage3Section10Image:VKPage3Section10Image,
+    YouTubePage3Section10Image:YouTubePage3Section10Image,
+    TelegramPage3Section10Image:TelegramPage3Section10Image,
+    InstagramPage3Section10Image:InstagramPage3Section10Image,
+
+
+
+    HomePage4NavigationImage:HomePage4NavigationImage,
+
+    ScooterPage4Section1Image:ScooterPage4Section1Image,
+    EnergyPage4Section1Image:EnergyPage4Section1Image,
+    GeoPage4Section1Image:GeoPage4Section1Image,
+
+    Background1Page4Section2Image:Background1Page4Section2Image,
+    Background2Page4Section2Image:Background2Page4Section2Image,
 }
