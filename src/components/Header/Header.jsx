@@ -1,8 +1,13 @@
 import "./Header.scss"
+import { useState } from "react"
 import { Photo } from "../../Images.js"
 import { Link } from "react-router-dom"
+import Modal from "../../modal/Modal.jsx"
 
 export default function Header(){
+    
+    const [open, setOpen] = useState(false)
+
     return(
         <>
             <header className="header">
@@ -12,7 +17,13 @@ export default function Header(){
                             <ul>
                                 <Link to="/page2">Сервис</Link>
                                 <Link to="/page3">Сотрудничество</Link>
-                                <Link to="">Заказать звонок</Link>
+                                <button onClick={() => setOpen(true)}>Заказать звонок</button>
+                                {open && (
+                                    <Modal onClose={() => setOpen(false)}>
+                                        <p>КУ</p>
+                                        <button onClick={() => setOpen(false)}>ЗАКРЫТЬ</button>
+                                    </Modal>
+                                )}
                             </ul>
                             <div>
                                 <ul>
