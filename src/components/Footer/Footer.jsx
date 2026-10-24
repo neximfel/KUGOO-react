@@ -31,14 +31,14 @@ const catalog = [
     {text: "Электровелосипеды"},
 ]
 const for_customers = [
-    {text: "Сервисный центр"},
-    {text: "Блог"},
-    {text: "Доставка и оплата"},
-    {text: "Сотрудничество"},
-    {text: "Рассрочка"},
-    {text: "Контакты"},
-    {text: "Тест-драйв"},
-    {text: "Акции"},
+    {text: "Сервисный центр", link: "/page2"},
+    {text: "Блог", link: ""},
+    {text: "Доставка и оплата", link: ""},
+    {text: "Сотрудничество", link: "/page3"},
+    {text: "Рассрочка", link: ""},
+    {text: "Контакты", link: ""},
+    {text: "Тест-драйв", link: "/page4"},
+    {text: "Акции", link: ""},
 ]
 const contacts1 = [
     {title: "Call-центр", number: "+7 (800) 505-54-61", text: "Пн-Вс 10:00 - 20:00"},
@@ -78,7 +78,7 @@ export default function Footer(){
                             <h3>Покупателям</h3>
                             <div>
                                 {for_customers.map((meow, index) => (
-                                    <Link to="" key={index}>{meow.text}</Link>
+                                    <Link to={meow.link} key={index}>{meow.text}</Link>
                                 ))}
                             </div>
                         </div>
